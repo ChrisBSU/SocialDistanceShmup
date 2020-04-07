@@ -1,0 +1,156 @@
+﻿body {
+margin: 0;
+padding: 0;
+font-family: "Luckiest Guy", Georgia, Serif;
+}
+
+#contactform{
+width: 50%;
+height: 60%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: none;
+z-index: 2;
+}
+
+.wrapper{
+position: relative;
+            
+}
+
+.button {
+background-color: #d71a5f;
+border: none;
+color: white;
+padding: 2% 8%;
+font-family: "Luckiest Guy", Georgia, Serif;
+text-align: center;
+text-decoration: none;
+font-size: 48px;
+position: absolute;
+top: 90%;
+left: 50%;
+transform: translate(-50%, -50%);
+cursor: pointer;
+box-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.button1 {
+border-radius: 12px;
+}
+
+.inputname {
+width: 34%;
+padding: 1.5% 2%;
+margin: 8px 0;
+top: 10%;
+left: 10%;
+box-sizing: border-box;
+border: none;
+background-color: #FFFFFF;
+color: grey;
+font-family: "Luckiest Guy", Georgia, Serif;
+text-align: left;
+font-size: 22px;
+text-decoration: none;
+position: absolute;
+box-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.inputmail {
+width: 34%;
+padding: 1.5% 2%;
+margin: 8px 0;
+top: 10%;
+right: 10%;
+box-sizing: border-box;
+border: none;
+background-color: #FFFFFF;
+color: grey;
+font-family: "Luckiest Guy", Georgia, Serif;
+text-align: left;
+font-size: 22px;
+text-decoration: none;
+position: absolute;
+box-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.textar {
+width: 80%;
+height: 40%;
+top: 34%;
+left: 10%;
+padding: 1.5% 2%;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+background-color: #FFFFFF;
+color: grey;
+position: absolute;
+font-size: 22px;
+text-decoration: none;
+font-family: "Luckiest Guy", Georgia, Serif;
+box-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.nametext{
+position: absolute;
+top: 5%;
+left: 10%;
+font-size: 28px;
+color: white;
+text-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.mailtext{
+position: absolute;
+top: 5%;
+right: 36.2%;
+font-size: 28px;
+color: white;
+text-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.note{
+position: absolute;
+top: 29%;
+left: 10%;
+font-size: 28px;
+color: white;
+text-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.thanks{
+position: absolute;
+top: 20%;
+left: 40%;
+font-size: 42px;
+color: white;
+text-shadow: -6px 6px rgba(0, 0, 0, .25);
+}
+
+.errorlist{
+position: absolute;
+top: -8%;
+left: 6%;
+font-size: 20px;
+color: orange;
+text-shadow: -3px 3px rgba(0, 0, 0, .25);
+}
+
+ul{
+list-style-type: none;
+}
+
+#form-messages{
+width: 70%;
+position: absolute;
+top: -1%;
+left: 50%;
+font-size: 24px;
+color: gold;
+transform: translate(-50%, -50%);
+text-shadow: -3px 3px rgba(0, 0, 0, .25);
+}
